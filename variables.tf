@@ -252,6 +252,6 @@ variable "db_subnet_group_name" {
 
 variable "iam_database_iam_roles" {
   description = "List of IAM roles to associate with the cluster"
-  type        = ""
+  type        = list
   default     = []
 }
